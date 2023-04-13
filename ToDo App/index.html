@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <span id="taskcount"></span>
+                <div class="col-lg-4 my-4 mx-auto">
+                    <input id="input" class="form-control w-100 mb-2" type="text" placeholder="Enter the task">
+                    <button id="button" class="btn btn-success w-100 mb-2">Submit</button>
+                </div>
+                <div class="alert alert-danger w-25 mx-auto text-center" role="alert">No task</div>
+                <div id="tasks" class="tasks"></div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
